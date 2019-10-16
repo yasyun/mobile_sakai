@@ -17,7 +17,7 @@ if (year%4 == 0 && year%100 != 0 || year%400 == 0)
 return notleapyear
 }
 
-fun leapyear(year: Int): Boolean {
+fun sampleLeapyear(year: Int): Boolean {
     val isLeapYear (year%4 == 0 && year%100 != 0 || year%400 == 0)
     retun isLeapYear
 }
